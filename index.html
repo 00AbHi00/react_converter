@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <textarea onclick="setCursorPosition(this)" oninput=change() id="code" aria-expanded="true"  rows="20" cols="80">
+            
+        </textarea>
+        <div class="container-2">
+        output
+            <button onclick="Copy()">
+                Copy
+            </button>
+        </div>
+        <textarea id="outputHtml" rows="20" cols="80" placeholder="Converted HTML code will appear here..." readonly>
+
+        </textarea>
+
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
